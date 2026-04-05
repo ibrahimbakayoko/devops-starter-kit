@@ -10,10 +10,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Build Docker images
-        run: docker-compose build
-
-      - name: Run tests
-        run: echo "Add your tests here"
+        run: docker compose build
