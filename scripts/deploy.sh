@@ -1,9 +1,22 @@
 #!/bin/bash
 
+set -e
+
 echo "🚀 Starting deployment..."
 
-docker-compose down
-docker-compose build
-docker-compose up -d
+echo "🔄 Updating code..."
+git pull
 
-echo "✅ App deployed!"
+echo "📥 Pulling latest images..."
+docker compose pull
+
+echo "🛑 Stopping containers..."
+docker compose down
+
+echo "🚀 Starting containers..."
+docker compose up -d
+
+echo "🧹 Cleaning..."
+docker system prune -f
+
+echo "✅ App deployed successfully!"
