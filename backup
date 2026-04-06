@@ -1,0 +1,40 @@
+services:
+
+  backend:
+    image: dnais1210/devops-starter-kit-backend:latest
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+    env_file:
+      - .env
+    networks:
+      - app-network
+
+  frontend:
+    image: dnais1210/devops-starter-kit-frontend:latest
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+    networks:
+      - app-network
+
+  db:
+    image: postgres:15
+    restart: always
+    env_file:
+      - .env
+    volumes:
+      - db-data:/var/lib/postgresql/data
+      - ./app/backend/db:/docker-entrypoint-initdb.d:ro
+    ports:
+      - "5432:5432"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+
+volumes:
+  db-data:
