@@ -5,7 +5,7 @@ set -e
 echo "🚀 Starting deployment..."
 
 echo "🔄 Updating code..."
-git pull
+git pull --rebase
 
 echo "📥 Pulling latest images..."
 docker compose pull
@@ -16,7 +16,7 @@ docker compose down
 echo "🚀 Starting containers..."
 docker compose up -d
 
-echo "🧹 Cleaning..."
+echo "🧹 Cleaning unused resources..."
 docker system prune -f
 
-echo "✅ App deployed successfully!"
+echo "✅ Deployment completed!"
