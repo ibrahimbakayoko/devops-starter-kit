@@ -5,67 +5,29 @@ set -e
 echo "🚀 Starting deployment..."
 
 # =========================
-# 1. Vérifier si le repo est un repo Git
+# 1. Check docker & compose
 # =========================
-if [ ! -d ".git" ]; then
-  echo "❌ Not a git repository"
-  exit 1
-fi
+command -v docker >/dev/null 2>&1 || { echo "❌ Docker is not installed"; exit 1; }
 
 # =========================
-# 2. Sauvegarde des changements locaux (si besoin)
-# =========================
-echo "🔍 Checking working directory..."
-
-if [ -n "$(git status --porcelain)" ]; then
-  echo "⚠️ Uncommitted changes detected → stashing..."
-  git stash -u || true
-else
-  echo "✅ Working directory clean"
-fi
-
-# =========================
-# 3. Mise à jour du code
-# =========================
-echo "🔄 Pulling latest code..."
-git pull --rebase || {
-  echo "❌ Git pull failed"
-  exit 1
-}
-
-# =========================
-# 4. Restaurer les changements locaux (optionnel)
-# =========================
-if git stash list | grep -q "stash@"; then
-  echo "📦 Restoring stashed changes..."
-  git stash pop || true
-fi
-
-# =========================
-# 5. Gestion Docker
+# 2. Pull images
 # =========================
 echo "📥 Pulling latest Docker images..."
-docker compose pull || true
+docker compose pull
 
+# =========================
+# 3. Restart stack
+# =========================
 echo "🛑 Stopping containers..."
-docker compose down || true
+docker compose down
 
 echo "🚀 Starting containers..."
-docker compose up -d || {
-  echo "❌ Docker Compose failed"
-  exit 1
-}
+docker compose up -d
 
 # =========================
-# 6. Nettoyage sécurisé
+# 4. Optional: show status
 # =========================
-echo "🧹 Cleaning unused Docker resources..."
-docker system prune -f || true
-
-# =========================
-# 7. Vérification finale
-# =========================
-echo "🔍 Checking running containers..."
+echo "🔍 Containers status:"
 docker ps
 
 echo "✅ Deployment successful!"
