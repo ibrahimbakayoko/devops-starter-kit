@@ -125,6 +125,8 @@ This project includes a ready-to-use GitHub Actions pipeline:
 
 .github/workflows/
 
+https://raw.githubusercontent.com/ibrahimbakayoko/devops-starter-kit/refs/heads/main/docs/pipeline.png
+
 ---
 
 ## 📈 Monitoring Included
