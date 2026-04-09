@@ -136,6 +136,8 @@ This project includes a ready-to-use GitHub Actions pipeline:
 - Prometheus → metrics collection
 - Grafana → dashboards
 
+![Grafana Dashboard](https://raw.githubusercontent.com/ibrahimbakayoko/devops-starter-kit/main/docs/dashboard%20grafana.png)
+
 Start everything with:
 
 docker compose up -d
