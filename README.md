@@ -37,6 +37,11 @@ Setting up a real-world environment is hard:
 - Clean and scalable project structure  
 - Ready for development **or** production  
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ibrahimbakayoko/devops-starter-kit/main/docs/Capture%20d%E2%80%99%C3%A9cran%201.png" width="45%" />
+  <img src="https://raw.githubusercontent.com/ibrahimbakayoko/devops-starter-kit/main/docs/Capture%20d%E2%80%99%C3%A9cran%202.png" width="45%" />
+</p>
+
 ---
 
 ## ⚙️ Tech Stack
