@@ -1,6 +1,14 @@
-# 🚀 DevOps Starter Kit
+![Docker](https://img.shields.io/badge/Docker-Ready-blue?logo=docker)
+![Node.js](https://img.shields.io/badge/Node.js-Backend-green?logo=node.js)
+![React](https://img.shields.io/badge/React-Frontend-61DAFB?logo=react)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue?logo=postgresql)
+![CI/CD](https://img.shields.io/badge/CI/CD-GitHub_Actions-black?logo=githubactions)
+![Monitoring](https://img.shields.io/badge/Monitoring-Prometheus_&_Grafana-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 Deploy a **production-ready fullstack application** in minutes.
+# 🚀 DevOps Starter Kit
+
 
 Skip weeks of setup.  
 Start building and shipping immediately.
