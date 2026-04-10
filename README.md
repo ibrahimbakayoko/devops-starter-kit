@@ -55,7 +55,11 @@ Setting up a real-world environment is hard:
 
 ---
 
-## 🧱 Architecture
+## 📐 Architecture
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ibrahimbakayoko/devops-starter-kit/main/docs/architecture-devops-starter-kits.png" width="80%" />
+</p>
 
 Frontend → Backend → PostgreSQL
 
