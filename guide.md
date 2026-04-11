@@ -77,8 +77,8 @@ monitoring/grafana-dashboard.json
 
 Steps:
 
-Grafana → Dashboards → Import
-Upload JSON file
+Grafana → Dashboards → Import  
+Upload JSON file  
 Select Prometheus datasource
 
 
@@ -90,7 +90,7 @@ The project includes a GitHub Actions pipeline.
 
 Pipeline location:
 
-.github/workflows/
+.github/workflows/  
 Default usage:
 
 No setup required — use Docker images from Docker Hub.
@@ -101,9 +101,9 @@ Advanced usage:
 
 Requires GitHub Secrets:
 
-DOCKER_USERNAME
-DOCKER_PASSWORD
-🧯 Troubleshooting
+DOCKER_USERNAME  
+DOCKER_PASSWORD  
+🧯 Troubleshooting  
 
 View logs:
 ```
