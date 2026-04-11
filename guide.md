@@ -56,10 +56,10 @@ chmod +x scripts/deploy.sh
 ./scripts/deploy.sh
 ```
 ## 🔗 Services
-Frontend → http://localhost:5173
-Backend → http://localhost:3000/api
-Grafana → http://localhost:3001
-Prometheus → http://localhost:9090
+Frontend → http://localhost:5173  
+Backend → http://localhost:3000/api  
+Grafana → http://localhost:3001   
+Prometheus → http://localhost:9090  
 
 ## 📊 Monitoring Setup
 Grafana login:
@@ -68,7 +68,7 @@ Add Prometheus datasource:
 
 URL:
 
-http://prometheus:9090
+http://prometheus:9090  
 Import Dashboard:
 
 File:
