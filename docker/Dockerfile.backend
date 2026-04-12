@@ -11,17 +11,3 @@ COPY app/backend .
 EXPOSE 3000
 
 CMD ["node", "index.js"]
-
-# FROM node:20
-
-# WORKDIR /app
-
-# COPY app/backend/package*.json ./
-
-# RUN npm install
-
-# COPY app/backend .
-
-# EXPOSE 3000
-
-# CMD ["node", "index.js"]
