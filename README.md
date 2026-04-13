@@ -168,6 +168,30 @@ docker compose up -d
 💸 Cost of infrastructure mistakes
 🧠 Mental energy on configuration
 
+## 🆓 Free vs ⭐ Pro
+
+Ce template existe en deux versions :  
+- **Free** → une base fullstack complète, idéale pour démarrer rapidement  
+- **Pro** → l’environnement DevOps complet utilisé en production
+
+| Fonctionnalité | Free | Pro |
+|----------------|:----:|:---:|
+| Backend + Frontend | ✔️ | ✔️ |
+| Docker Compose | ✔️ | ✔️ |
+| PostgreSQL | ✔️ | ✔️ |
+| Structure de projet propre | ✔️ | ✔️ |
+| Scripts de démarrage | ✔️ | ✔️ |
+| CI/CD GitHub Actions | ❌ | ✔️ |
+| Monitoring (Prometheus + Grafana) | ❌ | ✔️ |
+| Architecture complète (diagrammes + infra) | ❌ | ✔️ |
+| Pipelines Docker Hub | ❌ | ✔️ |
+| Dashboards Grafana | ❌ | ✔️ |
+| Support & mises à jour avancées | ❌ | ✔️ |
+
+> La version gratuite fournit tout ce qu’il faut pour développer localement.  
+> La version Pro débloque l’environnement DevOps complet pour aller en production.
+
+
 ---
 
 ## 🔥 Next steps
