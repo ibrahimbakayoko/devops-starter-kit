@@ -179,17 +179,17 @@ Ce template existe en deux versions :
 | Backend + Frontend | ✔️ | ✔️ |
 | Docker Compose | ✔️ | ✔️ |
 | PostgreSQL | ✔️ | ✔️ |
-| Structure de projet propre | ✔️ | ✔️ |
-| Scripts de démarrage | ✔️ | ✔️ |
 | CI/CD GitHub Actions | ❌ | ✔️ |
 | Monitoring (Prometheus + Grafana) | ❌ | ✔️ |
-| Architecture complète (diagrammes + infra) | ❌ | ✔️ |
-| Pipelines Docker Hub | ❌ | ✔️ |
+| Architecture complète | ❌ | ✔️ |
 | Dashboards Grafana | ❌ | ✔️ |
-| Support & mises à jour avancées | ❌ | ✔️ |
 
-> La version gratuite fournit tout ce qu’il faut pour développer localement.  
-> La version Pro débloque l’environnement DevOps complet pour aller en production.
+### ⭐ Accéder à la version Pro
+
+Débloquez l’environnement DevOps complet :
+
+[![Get Pro](https://img.shields.io/badge/Get%20the%20Pro%20Version-Gumroad-orange?logo=gumroad)](https://gumroad.com/ton-lien-ici)
+
 
 
 ---
