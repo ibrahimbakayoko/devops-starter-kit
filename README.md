@@ -6,6 +6,10 @@
 ![Monitoring](https://img.shields.io/badge/Monitoring-Prometheus_&_Grafana-orange)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
+Débloquez l’environnement DevOps complet (CI/CD, monitoring, dashboards, pipelines…).
+
+[![Get Pro](https://img.shields.io/badge/Get%20the%20Pro%20Version-Gumroad-orange?logo=gumroad)](https://ibra82.gumroad.com/l/one-click-devops-stack)
+
 Deploy a **production-ready fullstack application** in minutes.
 # 🚀 DevOps Starter Kit
 
@@ -100,7 +104,7 @@ docker compose up -d
 | Service | URL |
 | --- | --- |
 | Frontend | http://localhost:5173 |
-| Backend | http://localhost:3000 |
+| Backend | http://localhost:3000/api |
 | Grafana | http://localhost:3001 |
 | Prometheus | http://localhost:9090 |
 
@@ -188,7 +192,7 @@ Ce template existe en deux versions :
 
 Débloquez l’environnement DevOps complet :
 
-[![Get Pro](https://img.shields.io/badge/Get%20the%20Pro%20Version-Gumroad-orange?logo=gumroad)](https://gumroad.com/ton-lien-ici)
+[![Get Pro](https://img.shields.io/badge/Get%20the%20Pro%20Version-Gumroad-orange?logo=gumroad)](https://ibra82.gumroad.com/l/one-click-devops-stack)
 
 
 
