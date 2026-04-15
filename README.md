@@ -36,8 +36,8 @@ Setting up a real-world environment is hard:
 
 - Fullstack application (Frontend + Backend + PostgreSQL)  
 - Dockerized environment (1 command to run)  
-- CI/CD pipeline with GitHub Actions  
-- Monitoring with Prometheus & Grafana  
+- CI/CD pipeline with GitHub Actions (Pro version) 
+- Monitoring with Prometheus & Grafana (Pro version)  
 - Clean and scalable project structure  
 - Ready for development **or** production  
 
@@ -54,8 +54,8 @@ Setting up a real-world environment is hard:
 - Node.js (Backend)  
 - React (Frontend)  
 - PostgreSQL  
-- GitHub Actions  
-- Prometheus & Grafana  
+- GitHub Actions (Pro version)  
+- Prometheus & Grafana (Pro version)  
 
 ---
 
@@ -124,7 +124,7 @@ API URLs
 
 ---
 
-## 🔄 CI/CD Pipeline
+## 🔄 CI/CD Pipeline (Pro version) 
 
 This project includes a ready-to-use GitHub Actions pipeline:
 
@@ -138,13 +138,11 @@ This project includes a ready-to-use GitHub Actions pipeline:
 
 .github/workflows/
 
-## 🔄 CI/CD Pipeline
-
 ![CI/CD Pipeline](https://raw.githubusercontent.com/ibrahimbakayoko/devops-starter-kit/refs/heads/main/docs/pipeline.png)
 
 ---
 
-## 📈 Monitoring Included
+## 📈 Monitoring Included (Pro version) 
 
 - Prometheus → metrics collection
 - Grafana → dashboards
