@@ -22,7 +22,7 @@ docker compose version
 Clone the repository:
 
 ```
-git clone https://github.com/your-username/devops-starter-kit.git
+git clone https://github.com/ibrahimbakayoko/devops-starter-kit.git
 cd devops-starter-kit
 ```
 

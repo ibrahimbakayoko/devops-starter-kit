@@ -89,7 +89,7 @@ docker-compose.yml
 ## 🚀 Quick Start
 
 ```
-git clone https://github.com/your-username/devops-starter-kit.git
+git clone https://github.com/ibrahimbakayoko/devops-starter-kit.git
 cd devops-starter-kit
 
 cp .env.example .env
